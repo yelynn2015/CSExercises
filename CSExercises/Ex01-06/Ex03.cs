@@ -10,7 +10,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Input a number to get the square");
+            double a = Convert.ToDouble(Console.ReadLine());
+           
+            double b = a * a;
+            Console.WriteLine("the square is" + b);
         }
     }
 }
