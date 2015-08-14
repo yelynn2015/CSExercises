@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.Write("Input x=");
+            double x = Convert.ToDouble(Console.ReadLine());
+            double y = 2*x*x-4*x+3;
+            Console.WriteLine("the y is {0:#.00}", y);
         }
     }
 }
