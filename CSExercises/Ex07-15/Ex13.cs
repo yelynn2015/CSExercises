@@ -12,7 +12,7 @@ namespace CSExercises
         {
             Console.WriteLine("Input the distance");
             double distance = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("The fare is " + Math.Round(distance));
+            Console.WriteLine("The distance is " + Math.Round(distance));
             double fare;
             fare = 2.4 + distance * 0.4;
             fare = Math.Ceiling(fare);
